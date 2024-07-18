@@ -11,3 +11,5 @@ For the Reporting part I have used ExtentReports and implement ItestListner for 
 Create a sperate package where we have created class that consist of generic methods for the action tha we perform on the application for example perform a search operation etc and this class will extend **commoncomponent** which consist of all locators type and genrric method for click, sendKeys etc.
 
 Create A seprate package for Test Scripts that extend **Base class** where our actual test cases will be there by using @Test annotation and use the DataProvider name for which we have created a seprate class that reads the data from the excel file using getData method.
+
+To Run the test Case- In the framework we have created a TestRunner file which consist of testNg.xml file and its consist of class and method name. It is also called TestSuite we can run multile test cases in a singe go. Also we can run it individually in testScripts pacakage via RUn as TestNG by uisng right click funtionality on that class.
